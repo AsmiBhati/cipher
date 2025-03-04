@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cipher</title>
+    <link rel="stylesheet" href="/frontend/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="/static/new-design.png" alt="Logo">
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1 class="title"><span>CIPHER</span></h1>
+        <p class="subtitle">Decode the internet intelligently.</p>
+
+        <div class="search-container">
+            <input type="text" class="search-input" id="query" placeholder="Search the web smarter...">
+            <button class="search-button" onclick="performSearch()">Search</button>
+        </div>
+
+        <div id="results"></div>
+
+        <p class="search-description">We use BFS/DFS algorithms to crawl and analyze content using Gemini API.</p>
+    </div>
+
+    <div class="footer">
+        © made with love by Asmi, Isha, and Nitika
+    </div>
+
+    <script src="/frontend/script.js"></script>
+</body>
+</html>
